@@ -14,9 +14,9 @@ print("the length of the third side is: ", s3)
 r=int(input("Enter the radius to locate point on x-axis: "))
 print("x co-ordinate is: ",r*math.cos(math.radians(90)))
 
-#to find the position of the pendullum exactly
+#to find the position of the pendulum exactly
 a=float(input("Enter the amplitude: "))
-l=float(input("Enter the length of the pendullum: "))
+l=float(input("Enter the length of the pendulum: "))
 t=float(input("Enter time: "))
 y=a*(math.sin((math.sqrt(9.8/l))*t))
-print("pendullum side ways position at time ",t,"is: ",y)
+print("pendulum side ways position at time ",t,"is: ",y)
