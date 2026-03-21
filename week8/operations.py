@@ -1,8 +1,8 @@
 student = {
-    "name": "Prasanna",
+    "name": "Koushik",
     "age": 18,
     "course": "CSE",
-    "year": 1
+    "year": 2
 }
 
 print("Keys:", student.keys())
